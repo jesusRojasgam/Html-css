@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BARRA */
+
+.bar {
+  background-color: black;
+  color: #fff;
+  border-bottom: white 2px solid;
+}
+
+.bar_menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.bar_item {
+  font-size: 20px;
+  text-align: center;
+  
+  
+}
+
+
+.bar_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bar_link:hover {
+  color: grey;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  
+}
+
+.about_tittle {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.about_list {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.about_img {
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 14px;
+  font-size: 20px;
+
+}
+
+footer strong {
+  color: grey;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  margin: 4px;
+}
+a hover{
+  color:blanchedalmond
+}

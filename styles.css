@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BARRA */
+
+.bar {
+  background-color: black;
+  color: #fff;
+  border-bottom: white 2px solid;
+}
+
+.bar_menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.bar_item {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+
+.bar_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bar_link:hover {
+  color: grey;
+}
+
+/* PRODUCIONES*/
+
+.production {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  border-bottom: 4px solid black;
+  background-color: black;
+  align-items: center;
+text-align: center;
+  color: white;
+}
+.production_container {
+  text-align: center;
+}
+
+.production_intro {
+  
+  font-size: 50px;
+  margin-top: 50px;
+  
+  text-align: center;
+}
+
+.production_caption {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+ 
+}
+
+.production iframe {
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-items: center;
+}
+
+/* somos */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about__container {
+  text-align: center;
+  margin: 50px;
+}
+
+.about__intro {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about__caption {
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 14px;
+  font-size: 20px;
+}
+
+footer strong {
+  color: grey;
+}
